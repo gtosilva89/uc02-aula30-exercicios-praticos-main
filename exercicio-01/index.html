@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+  <title>Calculadora</title>
+</head>
+
+<body>
+  <div id="root">
+    <form id="form-calculadora">
+      <div id="campos">
+        <input type="number" name="primeiro-numero" id="primeiro-numero">
+        <select name="select-operacao" id="select-operacao">
+          <option value="somar">+</option>
+          <option value="subtrair">-</option>
+          <option value="multiplicar">x</option>
+          <option value="dividir">÷</option>
+        </select>
+        <input type="number" name="segundo-numero" id="segundo-numero">
+      </div>
+      <button id="btn-calcular">Calcular</button>
+    </form>
+    <h3>RESULTADO</h3>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
